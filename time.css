@@ -1,0 +1,83 @@
+
+@font-face {
+  font-family: 'fontko';
+  src: url(myFonts/Bungee-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'fontmo';
+  src: url(myFonts/Cinzel-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+  }
+
+
+  #grad {
+    background-image: url("timy.jpg");
+    min-height: 100vh;
+    background-size: cover;
+   
+  }
+
+  .timeC {
+
+    color: white;
+    text-align: center;
+    font-family: 'fontko';
+    font-style: bold;
+    font-weight: 450px;
+    background-image: linear-gradient(to right,#002244, #00308F, #7CB9E8);
+    margin: 0px 0px ;
+    padding: 150px 0px 30px 0px;
+  }
+  .choices {
+    margin-top: 10px;
+    font-family: 'fontko';
+    text-align: center;
+    font-size: 10px;
+  }
+  
+
+  [class^="button-"] {
+
+    border: 0px;
+    color: white;
+    font-family: 'fontmo';
+    font-weight: bold;
+    border-radius: 15px;
+    place-items: center;
+    padding: 10px 10px;
+    width: 150px; 
+    height: 70px;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right,#00308f, rgb(44, 93, 102));
+    
+  }
+
+  .myButtons {
+    display: grid;
+    max-width: 1200px;
+    margin: 100px auto;
+    column-gap: 10px;
+    row-gap: 30px;
+    box-shadow: 30px;
+     
+}
+
+  
+
+
+[class^="button-"]:hover {
+
+  background: #041E42;
+  color: white;
+}
+
+.hidden {
+  display: none;
+  background-color: red;
+}
